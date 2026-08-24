@@ -1,0 +1,14 @@
+{'shock': 'compound', 'magnitude': 0.2, 'novelty': 0.9, 'invariant_survival': 1.0, 'performance_retention': 0.8854545454545455, 'structural_retention': 0.8582255312124217, 'shock_amplification': 0.6407998083325817, 'graceful_failure': 0.9541818181818182, 'recovery_potential': 0.9291127656062108, 'after': {'capacity': 0.84, 'redundancy': 0.8, 'consistency': 0.98, 'critical_service': 0.88}}
+{'shock': 'compound', 'magnitude': 0.5, 'novelty': 0.9, 'invariant_survival': 1.0, 'performance_retention': 0.6931818181818182, 'structural_retention': 0.6409648345913732, 'shock_amplification': 0.6658533472268084, 'graceful_failure': 0.8772727272727272, 'recovery_potential': 0.8204824172956866, 'after': {'capacity': 0.6, 'redundancy': 0.5, 'consistency': 0.875, 'critical_service': 0.7}}
+{'shock': 'compound', 'magnitude': 0.8, 'novelty': 0.9, 'invariant_survival': 0.5, 'performance_retention': 0.4763636363636364, 'structural_retention': 0.41212246173203715, 'shock_amplification': 0.694696188690204, 'graceful_failure': 0.49054545454545456, 'recovery_potential': 0.4560612308660186, 'after': {'capacity': 0.3599999999999999, 'redundancy': 0.19999999999999996, 'consistency': 0.6799999999999999, 'critical_service': 0.52}}
+{'shock': 'compound', 'magnitude': 1.0, 'novelty': 0.9, 'invariant_survival': 0.0, 'performance_retention': 0.3181818181818182, 'structural_retention': 0.25, 'shock_amplification': 0.7159090909090909, 'graceful_failure': 0.1272727272727273, 'recovery_potential': 0.125, 'after': {'capacity': 0.19999999999999996, 'redundancy': 0.0, 'consistency': 0.5, 'critical_service': 0.4}}
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 720, in _warm_feature_flows
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 704, in _warm_collaboration_flows
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/generated/interface/models.py", line 32317, in hydrate_crdt_from_proto
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/remote.py", line 749, in __call__
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/client.py", line 150, in call
+artifact_tool.rpc.client.RemoteError: hydrateCrdtFromProto requires an empty collaborative document.
